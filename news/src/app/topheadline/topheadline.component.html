@@ -1,0 +1,14 @@
+<!-- <p>topheadline works!</p> -->
+
+<div class="container-fluid">
+  <div class="row">
+     <div  *ngFor="let nd of topHeadlinesData" class="col-lg-3">
+
+      <img src="{{nd.urlToImage}}" width="100%">
+      <!-- <img src=""> -->
+      <h5>{{nd.title}}</h5>
+      <p>{{nd.content}}</p>
+      <a href="{{nd.url}}">Read More</a>
+     </div>
+  </div>
+</div>
