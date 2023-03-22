@@ -6,15 +6,23 @@ import { AppComponent } from './app.component';
 import { TopheadlineComponent } from './topheadline/topheadline.component';
 import {HttpClientModule} from '@angular/common/http'
 import { TcnewsapiService } from './service/tcnewsapi.service';
+import { TechComponent } from './tech/tech.component';
+import { BusinessComponent } from './business/business.component';
+// import { Load } from '@ngx-loading-bar/core';
+import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+
 @NgModule({
   declarations: [
     AppComponent,
-    TopheadlineComponent
+    TopheadlineComponent,
+    TechComponent,
+    BusinessComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    LoadingBarHttpClientModule
   ],
   providers: [TcnewsapiService],
   bootstrap: [AppComponent]
