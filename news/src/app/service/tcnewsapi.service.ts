@@ -14,7 +14,8 @@ export class TcnewsapiService {
   topHeadlinesNews = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=f3f3ec3a990c49c892ab51f2c62f8196';
 
 
-   //tech news API URl
+  //  tech news API URl
+  // 
 
      techNews = 'https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=f3f3ec3a990c49c892ab51f2c62f8196';
 
